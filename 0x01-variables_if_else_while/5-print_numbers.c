@@ -1,22 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Aways 0 (Sucess)
+ * main - print single digit numbers
+ *
+ * Description: print single digit numbers
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char ch = 'a';
+	int i;
 
-	while (ch <= 'z')
+i = 48;
+
+	while (i < 58)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch++;
+		putchar(i);
+		i++;
 	}
-	putchar('\n');
+
+putchar(10);
+
 	return (0);
 }
