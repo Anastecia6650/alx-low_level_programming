@@ -1,16 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
+ * main - print single digit numbers
+ *
+ * Description: print single digit numbers
+ *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	printf("\n");
-	return (0);
+i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	putchar(10);
+
+return (0);
 }
