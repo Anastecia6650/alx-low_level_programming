@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all possible combinations
- * Numbers must be separated by commas and a space.
- * 01 and 10 are considered as the same combination
- * Print only the smallest combination of two digits.
- * Numbers should be printed in ascending order,
+ * Description: Print all possible combinations.
+ * Numbers must be separated by commas.
+ * 01 and 10 are considered as the same 
+ * Print only the smallest combination.
+ * Numbers should be printed in ascending.
  * You can only use `putchar`.
  * You can only use `putchar` up to 5 times.
- * You are not allowed to use any variable
+ * You are not allowed to use any variable 
  * Return: 0
  */
 int main(void)
@@ -27,7 +27,7 @@ i = 0;
 			putchar(k + '0');
 			putchar(j + '0');
 
-if (i < 89)
+ (i < 89)
 			{
 				putchar(44);
 				putchar(32);
@@ -38,5 +38,5 @@ i++;
 	}
 	putchar('\n');
 
-return (0);
+	return (0);
 }
