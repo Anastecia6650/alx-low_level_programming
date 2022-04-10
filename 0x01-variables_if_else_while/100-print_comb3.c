@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all possible combinations of two digits.
+ * Description: Print all possible combinations
  * Numbers must be separated by commas and a space.
- * 01 and 10 are considered as the same combination of the two digits.
+ * 01 and 10 are considered as the same combination
  * Print only the smallest combination of two digits.
- * Numbers should be printed in ascending order, with two digits.
+ * Numbers should be printed in ascending order,
  * You can only use `putchar`.
  * You can only use `putchar` up to 5 times.
- * You are not allowed to use any variable of type `char`.
+ * You are not allowed to use any variable
  * Return: 0
  */
 int main(void)
@@ -22,19 +22,19 @@ i = 0;
 		j = i % 10; /* singles digit */
 		k = i / 10; /* doubles digit */
 
-if (k < j)
+		if (k < j)
 		{
 			putchar(k + '0');
 			putchar(j + '0');
 
-			if (i < 89)
+if (i < 89)
 			{
 				putchar(44);
 				putchar(32);
 			}
 		}
 
-		i++;
+i++;
 	}
 	putchar('\n');
 
