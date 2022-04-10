@@ -1,18 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - prints the lowercase alphabet in reverse,
- * followed by a new line
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet except e, q
+ *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char ch;
+	int i = 0;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+while (i < 48)
 	{
-		putchar(ch);
+		if (i < 10)
+			putchar(i + '0');
+		else if (i > 41)
+			putchar(i - 10 + 'A');
+		i++;
 	}
-	putchar('\n');
-	return (0);
+	putchar(10);
+
+return (0);
 }
