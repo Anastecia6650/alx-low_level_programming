@@ -15,7 +15,7 @@ int main(void)
 	i = 97;
 	j = 65;
 
-while (i < 123)
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
@@ -27,7 +27,7 @@ while (i < 123)
 		j++;
 	}
 
-putchar(10);
+	putchar(10);
 
 	return (0);
 }
