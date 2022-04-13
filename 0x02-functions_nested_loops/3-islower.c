@@ -9,11 +9,10 @@
  */
 int _islower(int c)
 {
-char lc;
-int lower = 0;
 
-if (islower(c))
-lower = 1;
-}
-return (lower);
+	if (islower(c))
+	{
+		return (1);
+	}
+	return (0);
 }
