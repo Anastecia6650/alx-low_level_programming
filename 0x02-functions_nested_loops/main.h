@@ -13,3 +13,4 @@ int _islower(int c);
 int _islower(int c);
 int _abs(int);
 int print_last_digit(int);
+int _isalpha(int c);
