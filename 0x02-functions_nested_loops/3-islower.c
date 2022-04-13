@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib>
 /**
  * _islower - Check Holberton
  * @c: Input character
@@ -11,9 +12,7 @@ int _islower(int c)
 char lc;
 int lower = 0;
 
-for (lc = 'a'; lc <= 'z'; lc++)
-{
-if (lc == c)
+if (islower(c))
 lower = 1;
 }
 return (lower);
