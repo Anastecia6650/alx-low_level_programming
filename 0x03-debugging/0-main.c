@@ -1,21 +1,18 @@
 #include "main.h"
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Test if function print positive or negative
+ * main - tests function prints if integer positive or negative
  *
- * Return: Always success
+ * Return: Always 0
  */
+
 
 int main(void)
 {
-	int n;
+	int i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	positive_or_negative(n);
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
