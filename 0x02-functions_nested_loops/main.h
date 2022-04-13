@@ -8,3 +8,4 @@ int _isalpha(int c);
 void jack_bauer(void);
 int print_sign(int n);
 void times_table(void);
+int add(int, int);
