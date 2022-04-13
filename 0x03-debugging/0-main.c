@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Test if function print positive or negative
