@@ -1,13 +1,18 @@
-#include "main.h"
+​#​include​ ​"​main.h​"
+​/*​*
+ ​ * reset_to_98 - reset argument to 98
+ ​ * @n: pointer
+ ​ * Return: void
+​*/ 
 
-/**
- * reset_to_98 - takes a pointer to an int as parameter and updates
- * the value it points to to 98
- * @n: pointer to an int
- * Return: Nothing
- */
-
-void reset_to_98(int *n)
+​void​ ​reset_to_98​(​int​ *n)
 {
-	*n = 98;
+​        ​int​ i = ​0​;
+
+​        ​while​ (str[i])
+      { 
+​                ​_putchar​(str[i]);
+​                i++;
+​        }
+​        ​_putchar​(​'​\n​'​);
 }
