@@ -1,18 +1,18 @@
 ​#​include​ ​"​main.h​" 
   
  ​/*​* 
- ​ * _strlen - find the length of a string 
- ​ * @s: pointer to the string to check 
- ​ * Return: void 
- ​*/ 
+ ​ * _strlen - find the length of a string
+ ​ * @s: pointer to the string to check
+ ​ * Return: void
+ ​*/
   
   
- ​int​ ​_strlen​(​char​ *s) 
+ ​int​ ​_strlen​(​char​ *s)
  ​{ 
- ​        ​int​ i = ​0​; 
+ ​        ​int​ i = ​0​;
   
- ​        ​while​ (s[i]) 
- ​                i++; 
+ ​        ​while​ (s[i])
+ ​                i++;
   
- ​        ​return​ (i); 
- ​} 
+ ​        ​return​ (i);
+ ​}
